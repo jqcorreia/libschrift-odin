@@ -37,8 +37,6 @@ main :: proc() {
 	sft.lookup(&font, u8(CHAR), glyph)
 	sft.gmetrics(&font, glyph^, metrics)
 
-	// gp := make([]u8, metrics.minWidth * metrics.minHeight)
-
 	image := sft.SFT_Image {
 		width  = (metrics.minWidth + 3) & ~i32(3), // Round to 4-bytes
 		height = metrics.minHeight,
