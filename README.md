@@ -12,7 +12,7 @@ It is so simple that the bindings are a couple of lines of code.
 
 # Usage and Documentation
 
-Follow the official documentation but I leave you guys with a code snippet:
+Follow the [official documentation](https://tomolt.github.io/libschrift/) but I leave you guys with a code snippet:
 
 ```odin
 package main
